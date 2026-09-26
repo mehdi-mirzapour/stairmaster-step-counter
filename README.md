@@ -253,5 +253,10 @@ All detailed documentation is available in both **Markdown (`.md`)** for GitHub 
 
 ---
 
+## ⚖️ Trademark & Brand Disclaimer
+All product names, logos, and brands (including **Signature Fitness**® and **StairMaster**®) are property of their respective owners. All company, product, and equipment names used in this repository, video demonstrations, and documentation are for **identification and academic/engineering demonstration purposes only**. Use of these names, logos, and brands does not imply any affiliation with, sponsorship of, or endorsement by them.
+
+---
+
 ## 📄 License
 This project is licensed under the [MIT License](LICENSE).
