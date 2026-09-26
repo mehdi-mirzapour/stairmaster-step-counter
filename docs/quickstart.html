@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quickstart & CLI Guide — Stairmaster AI Step Counter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0A0E17;
+      --bg-card: rgba(16, 24, 40, 0.75);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --accent-cyan: #38BDF8;
+      --accent-green: #10B981;
+      --accent-purple: #8B5CF6;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --text-dim: #64748B;
+      --font-display: 'Outfit', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.7;
+      padding: 40px 20px 80px 20px;
+    }
+    .container { max-width: 960px; margin: 0 auto; }
+    .back-nav { margin-bottom: 30px; }
+    .back-nav a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    h1 { font-family: var(--font-display); font-size: 2.8rem; margin-bottom: 16px; font-weight: 800; }
+    h2 { font-family: var(--font-display); font-size: 1.8rem; margin: 40px 0 16px 0; color: var(--accent-cyan); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+    p { margin-bottom: 16px; color: var(--text-muted); font-size: 1.05rem; }
+    pre {
+      background: #05080E;
+      border: 1px solid var(--border-color);
+      border-radius: 10px;
+      padding: 16px;
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      color: #38BDF8;
+      overflow-x: auto;
+      margin: 16px 0 24px 0;
+    }
+    .card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 24px; margin-bottom: 24px; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { padding: 12px 16px; border: 1px solid var(--border-color); text-align: left; }
+    th { background: rgba(255, 255, 255, 0.04); color: var(--accent-cyan); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="back-nav">
+      <a href="index.html">← Back to Documentation Hub</a> | <a href="quickstart.md">View Raw Markdown (.md)</a>
+    </div>
+
+    <h1>🚀 Quickstart & Developer CLI Guide</h1>
+    <p>Setup instructions and command reference to run all step-counting pipelines locally in seconds.</p>
+
+    <h2>1. Installation</h2>
+    <pre><code># Clone repository
+git clone https://github.com/username/stairmaster-step-counter.git
+cd stairmaster-step-counter
+
+# Install with Astral uv (recommended):
+uv sync</code></pre>
+
+    <h2>2. Unified CLI Commands</h2>
+    <div class="card">
+      <h3 style="color: var(--accent-cyan); margin-bottom: 8px;">Run Local Benchmark</h3>
+      <p style="color: var(--text-muted); margin-bottom: 12px;">Compares all local edge models and prints a rich telemetry table:</p>
+      <pre style="margin-bottom: 0;"><code>uv run stairmaster --benchmark</code></pre>
+    </div>
+
+    <div class="card">
+      <h3 style="color: var(--accent-cyan); margin-bottom: 8px;">Run Solution 2 with Telemetry HUD Video</h3>
+      <p style="color: var(--text-muted); margin-bottom: 12px;">Generates a real-time annotated MP4 video with sports telemetry dashboard and face anonymization:</p>
+      <pre style="margin-bottom: 0;"><code>uv run stairmaster --solution 2 --duration 5.0 --save-video</code></pre>
+    </div>
+
+    <div class="card">
+      <h3 style="color: var(--accent-cyan); margin-bottom: 8px;">Run Solution 3 (Sub-Millisecond Machine Step Tracker)</h3>
+      <p style="color: var(--text-muted); margin-bottom: 12px;">Tracks physical revolving stair treads:</p>
+      <pre style="margin-bottom: 0;"><code>uv run stairmaster --solution 3 --duration 5.0 --save-video</code></pre>
+    </div>
+
+    <h2>3. CLI Flag Reference</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Option</th>
+          <th>Type</th>
+          <th>Default</th>
+          <th>Description</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>--benchmark</code></td>
+          <td>Flag</td>
+          <td>False</td>
+          <td>Run multi-solution benchmark comparison</td>
+        </tr>
+        <tr>
+          <td><code>--solution</code></td>
+          <td>String</td>
+          <td>2</td>
+          <td>Pipeline: 1 (VLM), 2 (Pose), 3 (Kymograph), 4 (Fusion), 5 (Audio)</td>
+        </tr>
+        <tr>
+          <td><code>--duration</code></td>
+          <td>Float</td>
+          <td>5.0</td>
+          <td>Duration to analyze in seconds</td>
+        </tr>
+        <tr>
+          <td><code>--save-video</code></td>
+          <td>Flag</td>
+          <td>False</td>
+          <td>Generate broadcast HUD annotated video</td>
+        </tr>
+        <tr>
+          <td><code>--video</code></td>
+          <td>Path</td>
+          <td>None</td>
+          <td>Custom input video file path</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy & Edge Guide — Stairmaster AI Step Counter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0A0E17;
+      --bg-card: rgba(16, 24, 40, 0.75);
+      --border-color: rgba(255, 255, 255, 0.08);
+      --accent-cyan: #38BDF8;
+      --accent-green: #10B981;
+      --accent-purple: #8B5CF6;
+      --text-main: #F8FAFC;
+      --text-muted: #94A3B8;
+      --text-dim: #64748B;
+      --font-display: 'Outfit', sans-serif;
+      --font-body: 'Inter', sans-serif;
+      --font-mono: 'JetBrains Mono', monospace;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: var(--font-body);
+      line-height: 1.7;
+      padding: 40px 20px 80px 20px;
+    }
+    .container { max-width: 960px; margin: 0 auto; }
+    .back-nav { margin-bottom: 30px; }
+    .back-nav a {
+      color: var(--accent-cyan);
+      text-decoration: none;
+      font-size: 0.95rem;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+    h1 { font-family: var(--font-display); font-size: 2.8rem; margin-bottom: 16px; font-weight: 800; }
+    h2 { font-family: var(--font-display); font-size: 1.8rem; margin: 40px 0 16px 0; color: var(--accent-cyan); border-bottom: 1px solid var(--border-color); padding-bottom: 8px; }
+    p { margin-bottom: 16px; color: var(--text-muted); font-size: 1.05rem; }
+    ul { margin-bottom: 20px; padding-left: 24px; color: var(--text-muted); }
+    li { margin-bottom: 8px; }
+    .card { background: var(--bg-card); border: 1px solid var(--border-color); border-radius: 12px; padding: 24px; margin-bottom: 24px; }
+    table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+    th, td { padding: 12px 16px; border: 1px solid var(--border-color); text-align: left; }
+    th { background: rgba(255, 255, 255, 0.04); color: var(--accent-cyan); }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="back-nav">
+      <a href="index.html">← Back to Documentation Hub</a> | <a href="privacy_and_edge.md">View Raw Markdown (.md)</a>
+    </div>
+
+    <h1>🛡️ Privacy-by-Design & Edge Deployment Architecture</h1>
+    <p>How our computer vision suite complies with GDPR and gym privacy standards through 100% on-device execution and dynamic face anonymization.</p>
+
+    <h2>1. The Privacy-First Imperative in Gyms</h2>
+    <div class="card">
+      <p>Commercial gyms cannot legally record or store unblurred video of patrons without explicit GDPR Article 9 biometric compliance.</p>
+      <p>Our pipeline resolves this through four fundamental architectural safeguards:</p>
+      <ul>
+        <li><strong>Real-time Gaussian Face Anonymization</strong>: When facial keypoints (COCO #0–#4) are detected, an on-device 51x51 Gaussian blur and digital vignette mask identity.</li>
+        <li><strong>Rear & Tread-Focused Camera Placement</strong>: The recommended camera perspective focuses on the stair exit and lower legs, not facial profiles.</li>
+        <li><strong>Zero Video Persistence</strong>: Video frames reside solely in volatile RAM buffer and are immediately discarded. Only scalar metrics are exported.</li>
+        <li><strong>100% Offline Edge Inference</strong>: Solutions 2, 3, 4, and 5 require zero internet connection and make zero cloud API calls.</li>
+      </ul>
+    </div>
+
+    <h2>2. Edge Hardware Tiers</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Hardware Tier</th>
+          <th>Recommended Hardware</th>
+          <th>Supported Solutions</th>
+          <th>Frame Latency</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Tier 1: Microcontroller</strong></td>
+          <td>ESP32-S3 / Pi Zero 2W</td>
+          <td>Solution 3 (Kymograph) or Solution 5</td>
+          <td>&lt; 2 ms</td>
+        </tr>
+        <tr>
+          <td><strong>Tier 2: Single-Board Computer</strong></td>
+          <td>Raspberry Pi 5 (8GB)</td>
+          <td>Solution 3 + Solution 4 (CPU ONNX)</td>
+          <td>&lt; 30 ms</td>
+        </tr>
+        <tr>
+          <td><strong>Tier 3: Embedded AI Accelerator</strong></td>
+          <td>NVIDIA Jetson Orin Nano</td>
+          <td>Solution 2 (YOLOv8-Pose TensorRT)</td>
+          <td>&lt; 8 ms</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>

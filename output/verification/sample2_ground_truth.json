@@ -1,0 +1,150 @@
+{
+  "video_name": "sample2.mp4",
+  "ground_truth_total_steps": 20,
+  "left_steps": 10,
+  "right_steps": 10,
+  "duration_sec": 8.433333333333334,
+  "cadence_spm": 142.29,
+  "steps": [
+    {
+      "frame": 2,
+      "timestamp": 0.067,
+      "leg": "Left",
+      "signal_val": -645.639916886499,
+      "step_id": 1
+    },
+    {
+      "frame": 7,
+      "timestamp": 0.233,
+      "leg": "Right",
+      "signal_val": -572.772093141233,
+      "step_id": 2
+    },
+    {
+      "frame": 21,
+      "timestamp": 0.7,
+      "leg": "Left",
+      "signal_val": -627.7249940814386,
+      "step_id": 3
+    },
+    {
+      "frame": 32,
+      "timestamp": 1.067,
+      "leg": "Right",
+      "signal_val": -564.4954997801669,
+      "step_id": 4
+    },
+    {
+      "frame": 46,
+      "timestamp": 1.533,
+      "leg": "Left",
+      "signal_val": -611.302640840604,
+      "step_id": 5
+    },
+    {
+      "frame": 57,
+      "timestamp": 1.9,
+      "leg": "Right",
+      "signal_val": -552.9006683217492,
+      "step_id": 6
+    },
+    {
+      "frame": 71,
+      "timestamp": 2.367,
+      "leg": "Left",
+      "signal_val": -614.5462239583326,
+      "step_id": 7
+    },
+    {
+      "frame": 85,
+      "timestamp": 2.833,
+      "leg": "Right",
+      "signal_val": -564.4661447764468,
+      "step_id": 8
+    },
+    {
+      "frame": 99,
+      "timestamp": 3.3,
+      "leg": "Left",
+      "signal_val": -607.3281696534252,
+      "step_id": 9
+    },
+    {
+      "frame": 110,
+      "timestamp": 3.667,
+      "leg": "Right",
+      "signal_val": -546.1877380635308,
+      "step_id": 10
+    },
+    {
+      "frame": 125,
+      "timestamp": 4.167,
+      "leg": "Left",
+      "signal_val": -611.8389641567735,
+      "step_id": 11
+    },
+    {
+      "frame": 130,
+      "timestamp": 4.333,
+      "leg": "Right",
+      "signal_val": -696.3401851241198,
+      "step_id": 12
+    },
+    {
+      "frame": 152,
+      "timestamp": 5.067,
+      "leg": "Right",
+      "signal_val": -636.5971610989914,
+      "step_id": 13
+    },
+    {
+      "frame": 165,
+      "timestamp": 5.5,
+      "leg": "Left",
+      "signal_val": -670.8203191055355,
+      "step_id": 14
+    },
+    {
+      "frame": 180,
+      "timestamp": 6.0,
+      "leg": "Right",
+      "signal_val": -646.507964955779,
+      "step_id": 15
+    },
+    {
+      "frame": 192,
+      "timestamp": 6.4,
+      "leg": "Left",
+      "signal_val": -674.6849272756856,
+      "step_id": 16
+    },
+    {
+      "frame": 207,
+      "timestamp": 6.9,
+      "leg": "Right",
+      "signal_val": -648.7792966107777,
+      "step_id": 17
+    },
+    {
+      "frame": 219,
+      "timestamp": 7.3,
+      "leg": "Left",
+      "signal_val": -676.1875591856052,
+      "step_id": 18
+    },
+    {
+      "frame": 235,
+      "timestamp": 7.833,
+      "leg": "Right",
+      "signal_val": -646.9130801246272,
+      "step_id": 19
+    },
+    {
+      "frame": 248,
+      "timestamp": 8.267,
+      "leg": "Left",
+      "signal_val": -672.0429724490996,
+      "step_id": 20
+    }
+  ]
+}

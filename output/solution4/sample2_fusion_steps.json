@@ -1,0 +1,191 @@
+{
+  "solution": "Solution 4: Multimodal Audio-Visual Fusion",
+  "video_name": "sample2.mp4",
+  "total_steps": 20,
+  "audio_visual_confirmed": 15,
+  "cadence_spm": 141.73,
+  "duration_sec": 8.466666666666667,
+  "runtime_sec": 6.37,
+  "steps": [
+    {
+      "timestamp_sec": 0.239,
+      "leg": "right",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 11.7,
+      "fused_step_id": 1,
+      "time_str": "00:00.24"
+    },
+    {
+      "timestamp_sec": 0.738,
+      "leg": "left",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 77.0,
+      "fused_step_id": 2,
+      "time_str": "00:00.74"
+    },
+    {
+      "timestamp_sec": 1.097,
+      "leg": "right",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 60.3,
+      "fused_step_id": 3,
+      "time_str": "00:01.10"
+    },
+    {
+      "timestamp_sec": 1.557,
+      "leg": "left",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 46.7,
+      "fused_step_id": 4,
+      "time_str": "00:01.56"
+    },
+    {
+      "timestamp_sec": 1.938,
+      "leg": "right",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 77.0,
+      "fused_step_id": 5,
+      "time_str": "00:01.94"
+    },
+    {
+      "timestamp_sec": 2.407,
+      "leg": "left",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 80.3,
+      "fused_step_id": 6,
+      "time_str": "00:02.41"
+    },
+    {
+      "timestamp_sec": 2.855,
+      "leg": "right",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 42.7,
+      "fused_step_id": 7,
+      "time_str": "00:02.85"
+    },
+    {
+      "timestamp_sec": 3.346,
+      "leg": "left",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 93.0,
+      "fused_step_id": 8,
+      "time_str": "00:03.35"
+    },
+    {
+      "timestamp_sec": 3.721,
+      "leg": "right",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 108.3,
+      "fused_step_id": 9,
+      "time_str": "00:03.72"
+    },
+    {
+      "timestamp_sec": 4.167,
+      "leg": "left",
+      "modality": "VISUAL_ONLY",
+      "confidence": 0.85,
+      "delta_ms": null,
+      "fused_step_id": 10,
+      "time_str": "00:04.17"
+    },
+    {
+      "timestamp_sec": 4.32,
+      "leg": "right",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 26.3,
+      "fused_step_id": 11,
+      "time_str": "00:04.32"
+    },
+    {
+      "timestamp_sec": 4.673,
+      "leg": "left",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 79.7,
+      "fused_step_id": 12,
+      "time_str": "00:04.67"
+    },
+    {
+      "timestamp_sec": 5.067,
+      "leg": "right",
+      "modality": "VISUAL_ONLY",
+      "confidence": 0.85,
+      "delta_ms": null,
+      "fused_step_id": 13,
+      "time_str": "00:05.07"
+    },
+    {
+      "timestamp_sec": 5.558,
+      "leg": "left",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 115.0,
+      "fused_step_id": 14,
+      "time_str": "00:05.56"
+    },
+    {
+      "timestamp_sec": 6.0,
+      "leg": "right",
+      "modality": "VISUAL_ONLY",
+      "confidence": 0.85,
+      "delta_ms": null,
+      "fused_step_id": 15,
+      "time_str": "00:06.00"
+    },
+    {
+      "timestamp_sec": 6.438,
+      "leg": "left",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 76.0,
+      "fused_step_id": 16,
+      "time_str": "00:06.44"
+    },
+    {
+      "timestamp_sec": 6.9,
+      "leg": "right",
+      "modality": "VISUAL_ONLY",
+      "confidence": 0.85,
+      "delta_ms": null,
+      "fused_step_id": 17,
+      "time_str": "00:06.90"
+    },
+    {
+      "timestamp_sec": 7.3,
+      "leg": "left",
+      "modality": "VISUAL_ONLY",
+      "confidence": 0.85,
+      "delta_ms": null,
+      "fused_step_id": 18,
+      "time_str": "00:07.30"
+    },
+    {
+      "timestamp_sec": 7.881,
+      "leg": "right",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 95.7,
+      "fused_step_id": 19,
+      "time_str": "00:07.88"
+    },
+    {
+      "timestamp_sec": 8.317,
+      "leg": "left",
+      "modality": "AUDIO_VISUAL_FUSED",
+      "confidence": 0.98,
+      "delta_ms": 100.3,
+      "fused_step_id": 20,
+      "time_str": "00:08.32"
+    }
+  ]
+}

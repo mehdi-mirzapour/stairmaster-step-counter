@@ -1,0 +1,126 @@
+{
+  "video_name": "sample2.mp4",
+  "total_machine_steps": 19,
+  "duration_sec": 8.47,
+  "cadence_spm": 134.65,
+  "mean_step_interval_sec": 0.446,
+  "trigger_line_y": 678,
+  "steps": [
+    {
+      "machine_step_id": 1,
+      "frame": 6,
+      "timestamp_sec": 0.2,
+      "time_str": "00:00.20"
+    },
+    {
+      "machine_step_id": 2,
+      "frame": 18,
+      "timestamp_sec": 0.6,
+      "time_str": "00:00.60"
+    },
+    {
+      "machine_step_id": 3,
+      "frame": 35,
+      "timestamp_sec": 1.167,
+      "time_str": "00:01.17"
+    },
+    {
+      "machine_step_id": 4,
+      "frame": 45,
+      "timestamp_sec": 1.5,
+      "time_str": "00:01.50"
+    },
+    {
+      "machine_step_id": 5,
+      "frame": 61,
+      "timestamp_sec": 2.033,
+      "time_str": "00:02.03"
+    },
+    {
+      "machine_step_id": 6,
+      "frame": 73,
+      "timestamp_sec": 2.433,
+      "time_str": "00:02.43"
+    },
+    {
+      "machine_step_id": 7,
+      "frame": 87,
+      "timestamp_sec": 2.9,
+      "time_str": "00:02.90"
+    },
+    {
+      "machine_step_id": 8,
+      "frame": 99,
+      "timestamp_sec": 3.3,
+      "time_str": "00:03.30"
+    },
+    {
+      "machine_step_id": 9,
+      "frame": 113,
+      "timestamp_sec": 3.767,
+      "time_str": "00:03.77"
+    },
+    {
+      "machine_step_id": 10,
+      "frame": 123,
+      "timestamp_sec": 4.1,
+      "time_str": "00:04.10"
+    },
+    {
+      "machine_step_id": 11,
+      "frame": 134,
+      "timestamp_sec": 4.467,
+      "time_str": "00:04.47"
+    },
+    {
+      "machine_step_id": 12,
+      "frame": 147,
+      "timestamp_sec": 4.9,
+      "time_str": "00:04.90"
+    },
+    {
+      "machine_step_id": 13,
+      "frame": 160,
+      "timestamp_sec": 5.333,
+      "time_str": "00:05.33"
+    },
+    {
+      "machine_step_id": 14,
+      "frame": 173,
+      "timestamp_sec": 5.767,
+      "time_str": "00:05.77"
+    },
+    {
+      "machine_step_id": 15,
+      "frame": 187,
+      "timestamp_sec": 6.233,
+      "time_str": "00:06.23"
+    },
+    {
+      "machine_step_id": 16,
+      "frame": 200,
+      "timestamp_sec": 6.667,
+      "time_str": "00:06.67"
+    },
+    {
+      "machine_step_id": 17,
+      "frame": 214,
+      "timestamp_sec": 7.133,
+      "time_str": "00:07.13"
+    },
+    {
+      "machine_step_id": 18,
+      "frame": 226,
+      "timestamp_sec": 7.533,
+      "time_str": "00:07.53"
+    },
+    {
+      "machine_step_id": 19,
+      "frame": 241,
+      "timestamp_sec": 8.033,
+      "time_str": "00:08.03"
+    }
+  ],
+  "solution": "Solution 3: Physical Machine Step Tracker (Kymograph)",
+  "runtime_sec": 0.374
+}

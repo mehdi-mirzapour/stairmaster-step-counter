@@ -1,0 +1,42 @@
+[project]
+name = "stairmaster-step-counter"
+version = "1.0.0"
+description = "Multi-Modal Computer Vision and AI Suite for Stairmaster & Continuous Climber Step Counting"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [
+    { name = "Mehdi", email = "mehdi@example.com" }
+]
+keywords = [
+    "computer-vision",
+    "yolov8-pose",
+    "stairmaster",
+    "continuous-climber",
+    "biomechanics",
+    "edge-ai",
+    "kymograph",
+    "optical-flow",
+    "fitness-telemetry"
+]
+dependencies = [
+    "matplotlib>=3.11.2",
+    "numpy>=2.0.0",
+    "openai>=1.30.0",
+    "opencv-python-headless>=4.9.0",
+    "pillow>=10.0.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.2.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.7.0",
+    "scipy>=1.12.0",
+    "ultralytics>=8.2.0",
+]
+
+[project.scripts]
+stairmaster = "stairmaster_step_counter:main"
+stairmaster-step-counter = "stairmaster_step_counter:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"

@@ -1,0 +1,856 @@
+{
+  "video_name": "sample2.mp4",
+  "video_path": "/home/mehdi/volvo/stairmaster-step-counter/samples/sample2.mp4",
+  "video_duration_sec": 8.38,
+  "analyzed_duration_sec": 8.38,
+  "total_frames_extracted": 68,
+  "sampling_fps": 8.0,
+  "windows_processed": 5,
+  "window_duration_sec": 3.0,
+  "overlap_duration_sec": 1.0,
+  "metrics": {
+    "total_steps": 31,
+    "left_steps": 16,
+    "right_steps": 15,
+    "ambiguous_steps": 0,
+    "duration_analyzed_sec": 8.38,
+    "cadence_spm": 222.09,
+    "mean_step_interval_sec": 0.27,
+    "symmetry_ratio": 1.07
+  },
+  "deduplicated_steps": [
+    {
+      "global_step_id": 1,
+      "timestamp_sec": 0.0,
+      "video_time_str": "00:00.00",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 2,
+      "timestamp_sec": 0.25,
+      "video_time_str": "00:00.25",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 3,
+      "timestamp_sec": 0.5,
+      "video_time_str": "00:00.50",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 4,
+      "timestamp_sec": 0.75,
+      "video_time_str": "00:00.75",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 5,
+      "timestamp_sec": 1.0,
+      "video_time_str": "00:01.00",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 6,
+      "timestamp_sec": 1.25,
+      "video_time_str": "00:01.25",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 7,
+      "timestamp_sec": 1.5,
+      "video_time_str": "00:01.50",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 8,
+      "timestamp_sec": 1.75,
+      "video_time_str": "00:01.75",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 9,
+      "timestamp_sec": 2.0,
+      "video_time_str": "00:02.00",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 10,
+      "timestamp_sec": 2.25,
+      "video_time_str": "00:02.25",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 11,
+      "timestamp_sec": 2.5,
+      "video_time_str": "00:02.50",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 12,
+      "timestamp_sec": 2.75,
+      "video_time_str": "00:02.75",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        0,
+        1
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 13,
+      "timestamp_sec": 3.25,
+      "video_time_str": "00:03.25",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        1
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 14,
+      "timestamp_sec": 3.75,
+      "video_time_str": "00:03.75",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        1,
+        2
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 15,
+      "timestamp_sec": 4.25,
+      "video_time_str": "00:04.25",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        1,
+        2
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 16,
+      "timestamp_sec": 4.5,
+      "video_time_str": "00:04.50",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        2,
+        1
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 17,
+      "timestamp_sec": 4.75,
+      "video_time_str": "00:04.75",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        2
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 18,
+      "timestamp_sec": 5.0,
+      "video_time_str": "00:05.00",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        2
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 19,
+      "timestamp_sec": 5.25,
+      "video_time_str": "00:05.25",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        2
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 20,
+      "timestamp_sec": 5.5,
+      "video_time_str": "00:05.50",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        2
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 21,
+      "timestamp_sec": 5.75,
+      "video_time_str": "00:05.75",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        2
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 22,
+      "timestamp_sec": 6.0,
+      "video_time_str": "00:06.00",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        2,
+        3
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 23,
+      "timestamp_sec": 6.25,
+      "video_time_str": "00:06.25",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        2,
+        3
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 24,
+      "timestamp_sec": 6.5,
+      "video_time_str": "00:06.50",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        2,
+        3
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 25,
+      "timestamp_sec": 6.75,
+      "video_time_str": "00:06.75",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        2,
+        3
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 26,
+      "timestamp_sec": 7.0,
+      "video_time_str": "00:07.00",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        3
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 27,
+      "timestamp_sec": 7.25,
+      "video_time_str": "00:07.25",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        3
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 28,
+      "timestamp_sec": 7.5,
+      "video_time_str": "00:07.50",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        3
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 29,
+      "timestamp_sec": 7.75,
+      "video_time_str": "00:07.75",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        3
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 30,
+      "timestamp_sec": 8.0,
+      "video_time_str": "00:08.00",
+      "active_leg": "right",
+      "confidence": 0.95,
+      "source_window_ids": [
+        3,
+        4
+      ],
+      "visual_cue": "Right foot makes contact with the stair."
+    },
+    {
+      "global_step_id": 31,
+      "timestamp_sec": 8.25,
+      "video_time_str": "00:08.25",
+      "active_leg": "left",
+      "confidence": 0.95,
+      "source_window_ids": [
+        3,
+        4
+      ],
+      "visual_cue": "Left foot makes contact with the stair."
+    }
+  ],
+  "raw_window_results": [
+    {
+      "window_id": 0,
+      "window_start_sec": 0.0,
+      "window_end_sec": 3.0,
+      "frame_count": 25,
+      "steps_detected": [
+        {
+          "step_number_in_window": 1,
+          "frame_index": 0,
+          "relative_timestamp_sec": 0.0,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 2,
+          "frame_index": 2,
+          "relative_timestamp_sec": 0.25,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 3,
+          "frame_index": 4,
+          "relative_timestamp_sec": 0.5,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 4,
+          "frame_index": 6,
+          "relative_timestamp_sec": 0.75,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 5,
+          "frame_index": 8,
+          "relative_timestamp_sec": 1.0,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 6,
+          "frame_index": 10,
+          "relative_timestamp_sec": 1.25,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 7,
+          "frame_index": 12,
+          "relative_timestamp_sec": 1.5,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 8,
+          "frame_index": 14,
+          "relative_timestamp_sec": 1.75,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 9,
+          "frame_index": 16,
+          "relative_timestamp_sec": 2.0,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 10,
+          "frame_index": 18,
+          "relative_timestamp_sec": 2.25,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 11,
+          "frame_index": 20,
+          "relative_timestamp_sec": 2.5,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 12,
+          "frame_index": 22,
+          "relative_timestamp_sec": 2.75,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        }
+      ],
+      "total_steps_in_window": 12,
+      "boundary_start": {
+        "left_leg_phase": "swing_up",
+        "right_leg_phase": "foot_contact",
+        "dominant_moving_leg": "right",
+        "summary": "Right leg is planted on the stair, left leg is swinging up."
+      },
+      "boundary_end": {
+        "left_leg_phase": "swing_up",
+        "right_leg_phase": "foot_contact",
+        "dominant_moving_leg": "left",
+        "summary": "Left leg is planted on the stair, right leg is swinging up."
+      },
+      "notes": null
+    },
+    {
+      "window_id": 1,
+      "window_start_sec": 2.0,
+      "window_end_sec": 5.0,
+      "frame_count": 25,
+      "steps_detected": [
+        {
+          "step_number_in_window": 1,
+          "frame_index": 6,
+          "relative_timestamp_sec": 0.75,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 2,
+          "frame_index": 10,
+          "relative_timestamp_sec": 1.25,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 3,
+          "frame_index": 14,
+          "relative_timestamp_sec": 1.75,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 4,
+          "frame_index": 18,
+          "relative_timestamp_sec": 2.25,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 5,
+          "frame_index": 22,
+          "relative_timestamp_sec": 2.75,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        }
+      ],
+      "total_steps_in_window": 5,
+      "boundary_start": {
+        "left_leg_phase": "swing_up",
+        "right_leg_phase": "foot_contact",
+        "dominant_moving_leg": "right",
+        "summary": "Right leg is planted on the stair, left leg is swinging up."
+      },
+      "boundary_end": {
+        "left_leg_phase": "swing_up",
+        "right_leg_phase": "foot_contact",
+        "dominant_moving_leg": "right",
+        "summary": "Right leg is planted on the stair, left leg is swinging up."
+      },
+      "notes": "Athlete maintains a rapid cadence with alternating steps."
+    },
+    {
+      "window_id": 2,
+      "window_start_sec": 4.0,
+      "window_end_sec": 7.0,
+      "frame_count": 25,
+      "steps_detected": [
+        {
+          "step_number_in_window": 1,
+          "frame_index": 0,
+          "relative_timestamp_sec": 0.0,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 2,
+          "frame_index": 2,
+          "relative_timestamp_sec": 0.25,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 3,
+          "frame_index": 4,
+          "relative_timestamp_sec": 0.5,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 4,
+          "frame_index": 6,
+          "relative_timestamp_sec": 0.75,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 5,
+          "frame_index": 8,
+          "relative_timestamp_sec": 1.0,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 6,
+          "frame_index": 10,
+          "relative_timestamp_sec": 1.25,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 7,
+          "frame_index": 12,
+          "relative_timestamp_sec": 1.5,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 8,
+          "frame_index": 14,
+          "relative_timestamp_sec": 1.75,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 9,
+          "frame_index": 16,
+          "relative_timestamp_sec": 2.0,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 10,
+          "frame_index": 18,
+          "relative_timestamp_sec": 2.25,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 11,
+          "frame_index": 20,
+          "relative_timestamp_sec": 2.5,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 12,
+          "frame_index": 22,
+          "relative_timestamp_sec": 2.75,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        }
+      ],
+      "total_steps_in_window": 12,
+      "boundary_start": {
+        "left_leg_phase": "swing_up",
+        "right_leg_phase": "foot_contact",
+        "dominant_moving_leg": "right",
+        "summary": "Right leg is in foot contact phase, left leg is swinging up."
+      },
+      "boundary_end": {
+        "left_leg_phase": "swing_up",
+        "right_leg_phase": "foot_contact",
+        "dominant_moving_leg": "right",
+        "summary": "Right leg is in foot contact phase, left leg is swinging up."
+      },
+      "notes": "The athlete maintains a consistent cadence throughout the window."
+    },
+    {
+      "window_id": 3,
+      "window_start_sec": 6.0,
+      "window_end_sec": 8.375,
+      "frame_count": 20,
+      "steps_detected": [
+        {
+          "step_number_in_window": 1,
+          "frame_index": 0,
+          "relative_timestamp_sec": 0.0,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 2,
+          "frame_index": 2,
+          "relative_timestamp_sec": 0.25,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 3,
+          "frame_index": 4,
+          "relative_timestamp_sec": 0.5,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 4,
+          "frame_index": 6,
+          "relative_timestamp_sec": 0.75,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 5,
+          "frame_index": 8,
+          "relative_timestamp_sec": 1.0,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 6,
+          "frame_index": 10,
+          "relative_timestamp_sec": 1.25,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 7,
+          "frame_index": 12,
+          "relative_timestamp_sec": 1.5,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 8,
+          "frame_index": 14,
+          "relative_timestamp_sec": 1.75,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 9,
+          "frame_index": 16,
+          "relative_timestamp_sec": 2.0,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 10,
+          "frame_index": 18,
+          "relative_timestamp_sec": 2.25,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        }
+      ],
+      "total_steps_in_window": 10,
+      "boundary_start": {
+        "left_leg_phase": "swing_up",
+        "right_leg_phase": "foot_contact",
+        "dominant_moving_leg": "right",
+        "summary": "Right foot is planted on the stair, left leg is swinging up."
+      },
+      "boundary_end": {
+        "left_leg_phase": "swing_up",
+        "right_leg_phase": "foot_contact",
+        "dominant_moving_leg": "left",
+        "summary": "Left foot is planted on the stair, right leg is swinging up."
+      },
+      "notes": "The athlete maintains a consistent cadence throughout the window."
+    },
+    {
+      "window_id": 4,
+      "window_start_sec": 8.0,
+      "window_end_sec": 8.375,
+      "frame_count": 4,
+      "steps_detected": [
+        {
+          "step_number_in_window": 1,
+          "frame_index": 1,
+          "relative_timestamp_sec": 0.12,
+          "active_leg": "right",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Right foot makes contact with the stair."
+        },
+        {
+          "step_number_in_window": 2,
+          "frame_index": 3,
+          "relative_timestamp_sec": 0.38,
+          "active_leg": "left",
+          "action": "foot_plant",
+          "confidence": 0.95,
+          "visual_cue": "Left foot makes contact with the stair."
+        }
+      ],
+      "total_steps_in_window": 2,
+      "boundary_start": {
+        "left_leg_phase": "swing_up",
+        "right_leg_phase": "swing_up",
+        "dominant_moving_leg": "right",
+        "summary": "Both legs are in the swing phase, preparing for foot contact."
+      },
+      "boundary_end": {
+        "left_leg_phase": "foot_contact",
+        "right_leg_phase": "swing_up",
+        "dominant_moving_leg": "left",
+        "summary": "Left leg has made contact with the stair, right leg is still in swing."
+      },
+      "notes": "The athlete maintains a steady climbing rhythm with alternating foot plants."
+    }
+  ],
+  "execution_time_sec": 12.94
+}
